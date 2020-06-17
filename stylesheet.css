@@ -1,0 +1,76 @@
+/* ブラウザ上部の余白を消す */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #FF9900 ;
+  height : 120px ;
+}
+
+.hd-logo{
+  font-size: 30px ;
+  color: #FF2F00 ;
+  margin: 35px 30px;
+  float: left;
+}
+header p {
+  float: right;
+  padding: 90px 20px 10px 200px ;
+}
+
+
+.main{
+  background-color: #FFCE8A ;
+  height: 400px ;
+}
+li {
+  float: left;
+  padding: 0px;
+  margin:0px;
+}
+.copy-container {
+  margin: 0px ;
+  padding: 0px ;
+  width : 1200px ;
+/* 画面に合わせて改行させない */
+  white-space: nowrap;
+}
+
+.copy-container p {
+  text-align: center;
+  padding: 10px ;
+}
+
+.img_common {
+  height: 120px ;
+  padding: 20px 40px ;
+}
+.img1_back {
+  background-color: red ;
+  margin: 30px;
+  padding: 20px ;
+  display: inline-block;
+  border-radius: 100px ;
+}
+
+.img2_back {
+  background-color: blue ;
+  margin: 30px ;
+  padding: 20px ;
+  display: inline-block;
+  border-radius: 100px ;
+}
+.img3_back {
+  background-color: white ;
+  margin: 30px ;
+  padding: 20px ;
+  display: inline-block;
+  border-radius: 100px ;
+}
+
+footer{
+  background-color: #FF9900 ;
+  height : 60px ;
+}
